@@ -1,27 +1,124 @@
 <main class="am-g">
-    <div class="map-header am-u-md-8">
-        <div class="map-header-title">
-            <p>传统村落分布图</p>
-            <img src="imgs/map.png" alt="map" />
+    <div class=" am-u-md-6 kl-goto-header">
+        <div class="map-header">
+            <div class="map-header-title">
+                <p>传统村落分布图</p>
+            </div>
         </div>
+        <img src="imgs/map.png" alt="map" />
     </div>
-    <div class="am-u-md-4 info-header">
-        <div class="map-header-title">
-            <p>传统村落概况</p>
-            <button type="button" class="am-btn am-btn-danger" data-am-modal="{target: '#my-popup'}">
-                Popup
-            </button>
 
-
+    <div class="am-u-md-4 kl-goto-info">
+        <div class="info-header">
+            <div class="info-header-title">
+                <p>传统村落概况</p>
+            </div>
         </div>
+        <ol>
+            <li data-am-modal="{target: '#space'}">
+                地理特色
+            </li>
+            <li data-am-modal="{target: '#history'}">
+                历史文化
+            </li>
+            <li data-am-modal="{target: '#production'}">
+                特色产品
+            </li>
+            <li data-am-modal="{target: '#see'}">
+                值得一看
+            </li>
+            <li data-am-modal="{target: '#goout'}">
+                出行帮手
+            </li>
+            <li data-am-modal="{target: '#talking'}">
+                村长的话
+            </li>
+            <li data-am-modal="{target: '#netfriend'}">
+                网友的话
+            </li>
+        </ol>
+
     </div>
 </main>
 
-
-<div class="am-popup" id="my-popup">
+<!--弹框-->
+<!--地理特色-->
+<div class="am-popup" id="space">
     <div class="am-popup-inner">
         <div class="am-popup-hd">
-            <h4 class="am-popup-title">...</h4>
+            <h4 class="am-popup-title">地理特色</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+
+        </div>
+    </div>
+</div>
+<!--历史文化-->
+<div class="am-popup" id="history">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">历史文化</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
+<!--特色产品-->
+<div class="am-popup" id="production">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">特色产品</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
+<!--值得一看-->
+<div class="am-popup" id="see">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">值得一看</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
+<!--出行帮手-->
+<div class="am-popup" id="goout">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">出行帮手</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
+<!--村长的话-->
+<div class="am-popup" id="talking">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">村长的话</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
+<!--网友的话-->
+<div class="am-popup" id="netfriend">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">网友的话</h4>
             <span data-am-modal-close class="am-close">&times;</span>
         </div>
         <div class="am-popup-bd">
