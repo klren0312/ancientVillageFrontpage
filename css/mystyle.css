@@ -37,24 +37,39 @@
 
 .map-header {
     width: 480px;
-    /*height: 45px;*/
-    /*border-bottom: 1px solid #000;*/
+    height: 45px;
+    border-bottom: 1px solid #000;
     margin-left: 75px;
     margin-bottom: 20px;
 }
 
 .map-header-title {
     width: 142px;
-    /*height: 45px;*/
+    height: 45px;
     background: #2B2B2B;
     color: #fff;
     padding: 10px 10px;
 }
 
-.map-header-title img {
-    width: 498px;
+.kl-goto-header img {
+    margin: -17px 0 20px 74px;
 }
 
 .info-header {
     width: 210px;
+    height: 45px;
+    border-bottom: 1px solid #000;
+    margin-right: 70px;
+}
+
+.info-header-title {
+    width: 116px;
+    height: 45px;
+    background: #2B2B2B;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.kl-goto-info li {
+    font-size: 20px;
 }
