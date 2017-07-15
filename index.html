@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+
+    <div ng-app="myApp">
+        <!--页头-->
+        <div ng-include="'header.html'"></div>
+        <!--内容-->
+        <div ng-View></div>
+        <!--页尾-->
+        <div ng-include="'footer.html'"></div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <script>
+        angular.module('myApp', ['ngRoute'])
+            .config(function($routeProvider) {
+                $routeProvider
+                    .when('/goto', {
+                        templateUrl: 'pages/goto.html'
+                    })
+                    .when('/onroad', {
+                        templateUrl: 'pages/onroad.html'
+                    })
+                    .when('/cl', {
+                        templateUrl: 'pages/cl.html'
+                    })
+                    .when('/extends', {
+                        templateUrl: 'pages/extends.html'
+                    })
+                    .when('/talking', {
+                        templateUrl: 'pages/talking.html'
+                    })
+                    .when('/share', {
+                        templateUrl: 'pages/share.html'
+                    })
+                    .when('/about', {
+                        templateUrl: 'pages/about.html'
+                    })
+                    .when('/contract', {
+                        templateUrl: 'pages/contract.html'
+                    })
+            })
+        $('#my-slider').flexslider({
+            controlNav: false
+        });
+    </script>
+</body>
+
+</html>
