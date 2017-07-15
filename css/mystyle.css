@@ -38,7 +38,7 @@
 .map-header {
     width: 480px;
     /*height: 45px;*/
-    border-bottom: 1px solid #000;
+    /*border-bottom: 1px solid #000;*/
     margin-left: 75px;
     margin-bottom: 20px;
 }
@@ -53,4 +53,8 @@
 
 .map-header-title img {
     width: 498px;
+}
+
+.info-header {
+    width: 210px;
 }
