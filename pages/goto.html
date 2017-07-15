@@ -1,8 +1,31 @@
-<main>
-    <div class="map-header ">
+<main class="am-g">
+    <div class="map-header am-u-md-8">
         <div class="map-header-title">
             <p>传统村落分布图</p>
             <img src="imgs/map.png" alt="map" />
         </div>
     </div>
+    <div class="am-u-md-4 info-header">
+        <div class="map-header-title">
+            <p>传统村落概况</p>
+            <button type="button" class="am-btn am-btn-danger" data-am-modal="{target: '#my-popup'}">
+                Popup
+            </button>
+
+
+        </div>
+    </div>
 </main>
+
+
+<div class="am-popup" id="my-popup">
+    <div class="am-popup-inner">
+        <div class="am-popup-hd">
+            <h4 class="am-popup-title">...</h4>
+            <span data-am-modal-close class="am-close">&times;</span>
+        </div>
+        <div class="am-popup-bd">
+            ...
+        </div>
+    </div>
+</div>
