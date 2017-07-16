@@ -73,3 +73,44 @@
 .kl-goto-info li {
     font-size: 20px;
 }
+
+
+/*page/onroad.html*/
+
+.kl-onroad-header,
+.kl-talking-header,
+.kl-share-header,
+.kl-contract-header {
+    width: 80%;
+    height: 45px;
+    border-bottom: 1px solid #000;
+    margin-left: 20px;
+}
+
+.kl-onroad-title,
+.kl-talking-title,
+.kl-share-title,
+.kl-contract-title {
+    width: 94px;
+    height: 45px;
+    background: #2B2B2B;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.kl-onroad li,
+.kl-talking li,
+.kl-share li,
+.kl-contract li {
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+
+/*page/talking.html*/
+
+.kl-talking li,
+.kl-contract li {
+    list-style: none;
+    margin-left: 5px;
+}
