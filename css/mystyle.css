@@ -34,6 +34,17 @@
 
 
 /*page/goto.html*/
+.am-popup-bd pre {
+    font-size: 20px;
+}
+
+.am-popup-bd p {
+    font-weight: 20px;
+}
+
+.am-popup-bd img {
+    width:100%;
+}
 
 .map-header {
     width: 480px;
@@ -75,6 +86,7 @@
 }
 
 
+
 /*page/onroad.html*/
 
 .kl-onroad-header,
@@ -114,3 +126,4 @@
     list-style: none;
     margin-left: 5px;
 }
+
